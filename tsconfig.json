@@ -1,0 +1,27 @@
+{
+  "ts-node": {
+    "transpileOnly": true
+  },
+  "compilerOptions": {
+    "allowJs": true,
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "inlineSourceMap": true,
+    "outDir": "build",
+    "rootDir": "src",
+    "typeRoots": ["./node_modules/@types", "./typings"],
+    "types": ["node", "mocha"],
+    "skipLibCheck": true
+  },
+  "exclude": [
+    "nodemon.json",
+    "node_modules",
+    "build",
+    "src/public",
+    "setup-env.js",
+    "src/**/*.json",
+    "coverage",
+    "src/test"
+  ]
+}
