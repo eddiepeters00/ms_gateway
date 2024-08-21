@@ -1,3 +1,5 @@
+import { logger } from "../../libs/logger";
+
 const { mongoClient } = require("mongodb");
 
 class mongoDBClient {
@@ -16,7 +18,7 @@ class mongoDBClient {
   async connect() {
     const connection = await mongoClient.connect(this.dbUri);
     this.db = connection.db();
-    console.log("[MONGODB] Connection successfull.");
+    logger.info("[MONGODB] Connection successfull.");
     return;
   }
 
@@ -43,13 +45,13 @@ class mongoDBClient {
   }
 
   async updateDocument({ query, values }) {
-    console.log(`[MONGODB] Modifying ${query}.`);
+    logger.info(`[MONGODB] Modifying ${query}.`);
     if (!(isObject(values) && isObject(query))) {
       throw Error(
         "mongoClient.upsert: values, query and option should be an object."
       );
     }
-    console.log(`[MONGODB] ${query} modified successfully.`);
+    logger.info(`[MONGODB] ${query} modified successfully.`);
     await this.connect();
     const res = await this.db
       .collection(this.dbColl)
@@ -60,17 +62,17 @@ class mongoDBClient {
   }
 
   async close() {
-    console.log(`[MONGODB] Closing connection...`);
+    logger.info(`[MONGODB] Closing connection...`);
     if (this.connection) this.connection.close();
-    console.log(`[MONGODB] Connection closed...`);
+    logger.info(`[MONGODB] Connection closed...`);
     return;
   }
 
   async dropDB() {
-    console.log(`[MONGODB] Dropping DB ${this.dbName}...`);
+    logger.info(`[MONGODB] Dropping DB ${this.dbName}...`);
     await this.connect();
     await this.db.dropDatabase();
-    console.log(`[MONGODB] Dropped DB ${this.dbName}`);
+    logger.info(`[MONGODB] Dropped DB ${this.dbName}`);
     return;
   }
 }

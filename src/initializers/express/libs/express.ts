@@ -1,3 +1,5 @@
+import { logger } from "../../../libs/logger";
+
 export default function createServer({
   json,
   urlencoded,
@@ -17,7 +19,7 @@ export default function createServer({
     app.use(urlencoded({ extended: true }));
 
     app.use((req, res, next) => {
-      console.log(
+      logger.info(
         `[EXPRESS] Connection received: ${req.ip}:${req.path}:${req.method}`
       );
       next();
@@ -28,7 +30,7 @@ export default function createServer({
     }
 
     app.listen(port, hostname, () => {
-      console.log(`[EXPRESS] Server running at http://${hostname}:${port}/`);
+      logger.info(`[EXPRESS] Server running at http://${hostname}:${port}/`);
       return;
     });
   }

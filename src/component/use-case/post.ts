@@ -29,8 +29,6 @@ export default function createPost({
         });
 
         const results = await authResults.json();
-
-        console.log("[GATEWAY][USE-CASE][POST]:" + results.data[0]);
         const token = results.data[0].email;
 
         const tokenPath = "http://127.0.0.1:3002/api/v1/token";
@@ -56,7 +54,7 @@ export default function createPost({
         };
       }
     } catch (err) {
-      console.log(err);
+      logger.error(err);
     }
   }
 }

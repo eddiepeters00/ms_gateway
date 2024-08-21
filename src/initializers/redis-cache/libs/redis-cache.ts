@@ -9,12 +9,8 @@ export default function makeRedisClient({ Redis, logger }) {
       const redisClient = await createClient({ cacheConfig });
 
       const inputData = JSON.stringify(data);
-      console.log(inputData);
       await redisClient.set(cacheKey, inputData);
-
-      console.log(typeof cacheConfig.ttl);
       redisClient.expire(cacheKey, cacheConfig.ttl);
-
       redisClient.quit();
 
       return;

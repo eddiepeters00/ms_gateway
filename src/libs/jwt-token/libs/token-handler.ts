@@ -2,7 +2,6 @@ export default function makeJWTTokenHandler({ jwt }) {
   return Object.freeze({ JWTCoder, JWTdecoder });
 
   function JWTCoder({ data, secret }) {
-    console.log(data);
     const codedToken = jwt.sign({ data }, secret);
     return codedToken;
   }
