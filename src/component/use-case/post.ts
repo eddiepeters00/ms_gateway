@@ -20,6 +20,18 @@ export default function createPost({
         return results.json();
       }
 
+      //Get user details
+      if (path.includes("user")) {
+        const userPath = "http://127.0.0.1:3001/api/v1/user/user";
+        const results = await makeFetch({
+          params,
+          path: userPath,
+          method: "post",
+        });
+
+        return results.json();
+      }
+
       if (path.includes("auth")) {
         const authPath = "http://127.0.0.1:3001/api/v1/user/auth";
         const authResults = await makeFetch({

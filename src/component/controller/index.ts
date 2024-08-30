@@ -17,7 +17,7 @@ const postEP = async (req, res) => {
 
 const getEP = async (req, res) => {
   try {
-    let results = await get({ params: req.body });
+    let results = await get({ params: req.params });
     results.json({ err: 0, data: results });
   } catch (err) {
     logger.error(`[EP][GET] ${req.method}: ${err.message}`);

@@ -132,3 +132,105 @@
 {"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3005/","timestamp":"2024-08-30 15:05:02"}
 {"level":"info","message":"[GATEWAY] Bootstrapping micro service","timestamp":"2024-08-30 15:05:07"}
 {"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3005/","timestamp":"2024-08-30 15:05:07"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/user:GET","timestamp":"2024-08-30 15:08:13"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 15:08:13"}
+{"level":"error","message":"[EP][GET] GET: Cannot read properties of undefined (reading 'connect')","timestamp":"2024-08-30 15:08:13"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/user:GET","timestamp":"2024-08-30 15:09:14"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 15:09:14"}
+{"level":"error","message":"[EP][GET] GET: Cannot read properties of undefined (reading 'connect')","timestamp":"2024-08-30 15:09:14"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/user:GET","timestamp":"2024-08-30 15:09:48"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 15:09:48"}
+{"level":"error","message":"[EP][GET] GET: Cannot read properties of undefined (reading 'connect')","timestamp":"2024-08-30 15:09:48"}
+{"level":"info","message":"[GATEWAY] Bootstrapping micro service","timestamp":"2024-08-30 15:11:54"}
+{"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3005/","timestamp":"2024-08-30 15:11:54"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/user:GET","timestamp":"2024-08-30 15:12:05"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 15:12:05"}
+{"level":"info","message":"[USE-CASE][GET] Finding documents in DB!","timestamp":"2024-08-30 15:12:05"}
+{"level":"error","message":"[EP][GET] GET: Cannot read properties of undefined (reading 'connect')","timestamp":"2024-08-30 15:12:05"}
+{"level":"info","message":"[GATEWAY] Bootstrapping micro service","timestamp":"2024-08-30 15:12:48"}
+{"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3005/","timestamp":"2024-08-30 15:12:48"}
+{"level":"info","message":"[GATEWAY] Bootstrapping micro service","timestamp":"2024-08-30 15:13:28"}
+{"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3005/","timestamp":"2024-08-30 15:13:28"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/user:GET","timestamp":"2024-08-30 15:14:59"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 15:14:59"}
+{"level":"error","message":"[EP][GET] GET: Cannot read properties of undefined (reading 'connect')","timestamp":"2024-08-30 15:15:00"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/user:GET","timestamp":"2024-08-30 15:15:43"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 15:15:43"}
+{"level":"error","message":"[EP][GET] GET: Cannot read properties of undefined (reading 'connect')","timestamp":"2024-08-30 15:15:43"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/user:GET","timestamp":"2024-08-30 15:15:53"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 15:15:53"}
+{"level":"error","message":"[EP][GET] GET: Cannot read properties of undefined (reading 'connect')","timestamp":"2024-08-30 15:15:53"}
+{"level":"info","message":"[GATEWAY] Bootstrapping micro service","timestamp":"2024-08-30 15:18:19"}
+{"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3005/","timestamp":"2024-08-30 15:18:19"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/auth:POST","timestamp":"2024-08-30 15:20:15"}
+{"level":"info","message":"[GATEWAY] Bootstrapping micro service","timestamp":"2024-08-30 15:33:39"}
+{"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3005/","timestamp":"2024-08-30 15:33:39"}
+{"level":"info","message":"[GATEWAY] Bootstrapping micro service","timestamp":"2024-08-30 15:33:47"}
+{"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3005/","timestamp":"2024-08-30 15:33:47"}
+{"level":"info","message":"[GATEWAY] Bootstrapping micro service","timestamp":"2024-08-30 15:34:03"}
+{"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3005/","timestamp":"2024-08-30 15:34:03"}
+{"level":"info","message":"[GATEWAY] Bootstrapping micro service","timestamp":"2024-08-30 15:34:26"}
+{"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3005/","timestamp":"2024-08-30 15:34:26"}
+{"level":"info","message":"[GATEWAY] Bootstrapping micro service","timestamp":"2024-08-30 15:37:05"}
+{"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3005/","timestamp":"2024-08-30 15:37:05"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/user:GET","timestamp":"2024-08-30 15:39:46"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 15:39:46"}
+{"level":"error","message":"[EP][GET] GET: Cannot read properties of undefined (reading 'connect')","timestamp":"2024-08-30 15:39:46"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/user:GET","timestamp":"2024-08-30 15:39:51"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 15:39:51"}
+{"level":"error","message":"[EP][GET] GET: Cannot read properties of undefined (reading 'connect')","timestamp":"2024-08-30 15:39:51"}
+{"level":"info","message":"[GATEWAY] Bootstrapping micro service","timestamp":"2024-08-30 15:42:54"}
+{"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3005/","timestamp":"2024-08-30 15:42:54"}
+{"level":"info","message":"[GATEWAY] Bootstrapping micro service","timestamp":"2024-08-30 15:47:32"}
+{"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3005/","timestamp":"2024-08-30 15:47:32"}
+{"level":"info","message":"[GATEWAY] Bootstrapping micro service","timestamp":"2024-08-30 15:47:57"}
+{"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3005/","timestamp":"2024-08-30 15:47:57"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/user:GET","timestamp":"2024-08-30 15:48:00"}
+{"level":"info","message":"[USE-CASE][GET] Reading from db - START!","timestamp":"2024-08-30 15:48:00"}
+{"level":"error","message":"[EP][GET] GET: Cannot read properties of undefined (reading 'connect')","timestamp":"2024-08-30 15:48:00"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/auth:POST","timestamp":"2024-08-30 16:05:31"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/auth:POST","timestamp":"2024-08-30 16:07:23"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/auth:POST","timestamp":"2024-08-30 16:08:16"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/auth:POST","timestamp":"2024-08-30 16:09:22"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/auth:POST","timestamp":"2024-08-30 16:19:08"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/auth:POST","timestamp":"2024-08-30 16:26:10"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/auth:POST","timestamp":"2024-08-30 16:26:31"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/auth:POST","timestamp":"2024-08-30 16:27:57"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/auth:POST","timestamp":"2024-08-30 16:28:00"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/auth:POST","timestamp":"2024-08-30 16:28:00"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/auth:POST","timestamp":"2024-08-30 16:28:01"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/auth:POST","timestamp":"2024-08-30 16:28:02"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/auth:POST","timestamp":"2024-08-30 16:28:02"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/auth:POST","timestamp":"2024-08-30 16:28:03"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/auth:POST","timestamp":"2024-08-30 16:28:04"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/auth:POST","timestamp":"2024-08-30 16:28:04"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/auth:POST","timestamp":"2024-08-30 16:28:05"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/auth:POST","timestamp":"2024-08-30 16:28:06"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/auth:POST","timestamp":"2024-08-30 16:28:06"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/auth:POST","timestamp":"2024-08-30 16:28:07"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/auth:POST","timestamp":"2024-08-30 16:28:07"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/auth:POST","timestamp":"2024-08-30 16:28:08"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/auth:POST","timestamp":"2024-08-30 16:28:09"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/auth:POST","timestamp":"2024-08-30 16:28:09"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/auth:POST","timestamp":"2024-08-30 16:28:10"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/auth:POST","timestamp":"2024-08-30 16:28:10"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/auth:POST","timestamp":"2024-08-30 16:28:11"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/auth:POST","timestamp":"2024-08-30 16:28:12"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/auth:POST","timestamp":"2024-08-30 16:28:13"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/auth:POST","timestamp":"2024-08-30 16:29:16"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/registration:POST","timestamp":"2024-08-30 16:33:27"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/registration:POST","timestamp":"2024-08-30 16:37:57"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/auth:POST","timestamp":"2024-08-30 16:38:27"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/auth:POST","timestamp":"2024-08-30 16:47:02"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/auth:POST","timestamp":"2024-08-30 16:54:35"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/user:POST","timestamp":"2024-08-30 16:58:22"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/user:POST","timestamp":"2024-08-30 16:58:44"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/user:POST","timestamp":"2024-08-30 16:58:56"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/user:POST","timestamp":"2024-08-30 16:59:22"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/auth:POST","timestamp":"2024-08-30 17:00:30"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/user:POST","timestamp":"2024-08-30 17:00:44"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/user:POST","timestamp":"2024-08-30 17:00:54"}
+{"level":"info","message":"[GATEWAY] Bootstrapping micro service","timestamp":"2024-08-30 17:03:33"}
+{"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3005/","timestamp":"2024-08-30 17:03:33"}
+{"level":"info","message":"[GATEWAY] Bootstrapping micro service","timestamp":"2024-08-30 17:03:56"}
+{"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3005/","timestamp":"2024-08-30 17:03:56"}

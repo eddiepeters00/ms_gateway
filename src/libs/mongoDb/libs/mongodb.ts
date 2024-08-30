@@ -21,6 +21,7 @@ export default function makeDB({ dbClient }) {
   }
 
   async function findDocuments({ query, dbName, dbUri, dbColl }) {
+    console.log("Finding DOCS");
     const db = new dbClient({ dbName, dbUri, dbColl });
     const results = await db.findDocumentsByQuery({ query });
 

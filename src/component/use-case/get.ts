@@ -9,6 +9,7 @@ export default function createGet({
 
   async function get({ params, dbConfig, cacheConfig, errorMsgs }) {
     logger.info(`[USE-CASE][GET] Reading from db - START!`);
+    console.log(params);
     Object.keys(params).forEach(
       (key) => params[key] === undefined && delete params[key]
     );
