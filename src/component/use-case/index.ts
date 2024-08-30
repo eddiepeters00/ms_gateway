@@ -30,7 +30,7 @@ const post = ({ params, path }) =>
     errorMsgs: errorMsgs.post,
   });
 
-const get = ({ params, path }) =>
+const get = ({ params }) =>
   createGet({
     makeInputObj,
     makeOutputObj,

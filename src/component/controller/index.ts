@@ -17,9 +17,7 @@ const postEP = async (req, res) => {
 
 const getEP = async (req, res) => {
   try {
-    const path = req.path;
-    const method = req.method;
-    let results = await get({ params: req.body, path });
+    let results = await get({ params: req.body });
     results.json({ err: 0, data: results });
   } catch (err) {
     logger.error(`[EP][GET] ${req.method}: ${err.message}`);
@@ -48,6 +46,7 @@ const routes = [
   { path: `${baseUrl}/registration`, method: "post", component: postEP },
   { path: `${baseUrl}/auth`, method: "post", component: postEP },
   { path: `${baseUrl}/protected`, method: "post", component: protectedEP },
+  { path: `${baseUrl}/user`, method: "get", component: getEP },
 ];
 
 export { routes };
