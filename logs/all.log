@@ -79,3 +79,34 @@
 {"level":"info","message":"[GATEWAY] Bootstrapping micro service","timestamp":"2024-08-21 14:21:36"}
 {"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3005/","timestamp":"2024-08-21 14:21:36"}
 {"level":"info","message":"[GATEWAY] Bootstrapping micro service","timestamp":"2024-08-21 14:21:36"}
+{"level":"info","message":"[GATEWAY] Bootstrapping micro service","timestamp":"2024-08-21 14:23:12"}
+{"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3005/","timestamp":"2024-08-21 14:23:12"}
+{"level":"info","message":"[GATEWAY] Bootstrapping micro service","timestamp":"2024-08-30 14:25:05"}
+{"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3005/","timestamp":"2024-08-30 14:25:05"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/auth:POST","timestamp":"2024-08-30 14:26:17"}
+{"level":"error","message":"fetch is not defined","stack":"ReferenceError: fetch is not defined\n    at Object.<anonymous> (/home/eddie/projects/ms_gateway/src/component/data-access/fetch.ts:7:21)\n    at Generator.next (<anonymous>)\n    at /home/eddie/projects/ms_gateway/src/component/data-access/fetch.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (/home/eddie/projects/ms_gateway/src/component/data-access/fetch.ts:4:12)\n    at Object.makeFetch (/home/eddie/projects/ms_gateway/src/component/data-access/fetch.ts:18:16)\n    at makeFetch (/home/eddie/projects/ms_gateway/src/component/data-access/index.ts:17:17)\n    at Object.<anonymous> (/home/eddie/projects/ms_gateway/src/component/use-case/post.ts:25:35)\n    at Generator.next (<anonymous>)\n    at /home/eddie/projects/ms_gateway/src/component/use-case/post.ts:8:71","timestamp":"2024-08-30 14:26:17"}
+{"level":"info","message":"[GATEWAY] Bootstrapping micro service","timestamp":"2024-08-30 14:27:10"}
+{"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3005/","timestamp":"2024-08-30 14:27:10"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/api/v1/services/auth:POST","timestamp":"2024-08-30 14:27:25"}
+{"level":"info","message":"[GATEWAY] Bootstrapping micro service","timestamp":"2024-08-30 14:43:46"}
+{"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3005/","timestamp":"2024-08-30 14:43:46"}
+{"level":"info","message":"[GATEWAY] Bootstrapping micro service","timestamp":"2024-08-30 14:43:58"}
+{"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3005/","timestamp":"2024-08-30 14:43:58"}
+{"level":"info","message":"[GATEWAY] Bootstrapping micro service","timestamp":"2024-08-30 14:50:08"}
+{"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3005/","timestamp":"2024-08-30 14:50:08"}
+{"level":"info","message":"[GATEWAY] Bootstrapping micro service","timestamp":"2024-08-30 14:50:20"}
+{"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3005/","timestamp":"2024-08-30 14:50:20"}
+{"level":"info","message":"[GATEWAY] Bootstrapping micro service","timestamp":"2024-08-30 14:52:33"}
+{"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3005/","timestamp":"2024-08-30 14:52:33"}
+{"level":"info","message":"[GATEWAY] Bootstrapping micro service","timestamp":"2024-08-30 14:55:42"}
+{"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3005/","timestamp":"2024-08-30 14:55:42"}
+{"level":"info","message":"[GATEWAY] Bootstrapping micro service","timestamp":"2024-08-30 14:56:45"}
+{"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3005/","timestamp":"2024-08-30 14:56:45"}
+{"level":"info","message":"[GATEWAY] Bootstrapping micro service","timestamp":"2024-08-30 14:57:20"}
+{"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3005/","timestamp":"2024-08-30 14:57:20"}
+{"level":"info","message":"[GATEWAY] Bootstrapping micro service","timestamp":"2024-08-30 14:57:27"}
+{"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3005/","timestamp":"2024-08-30 14:57:27"}
+{"level":"info","message":"[GATEWAY] Bootstrapping micro service","timestamp":"2024-08-30 14:57:31"}
+{"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3005/","timestamp":"2024-08-30 14:57:31"}
+{"level":"info","message":"[GATEWAY] Bootstrapping micro service","timestamp":"2024-08-30 14:58:04"}
+{"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3005/","timestamp":"2024-08-30 14:58:04"}

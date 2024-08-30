@@ -2,8 +2,10 @@ import createPost from "./post";
 import createProtected from "./protected";
 import config from "../../config";
 import { logger } from "../../libs/logger";
-import { makeInputObj } from "../entities";
+import { makeInputObj, makeOutputObj } from "../entities";
 import { setCache, getCache, makeFetch } from "../data-access";
+import createGet from "./get";
+import { findDocuments } from "../../libs/mongoDb";
 
 const errorMsgs = config.ERROR_MSG;
 
@@ -28,4 +30,18 @@ const post = ({ params, path }) =>
     errorMsgs: errorMsgs.post,
   });
 
-export { post, protectedRoutes };
+const get = ({ params, path }) =>
+  createGet({
+    makeInputObj,
+    makeOutputObj,
+    findDocuments,
+    getCache,
+    logger,
+  }).get({
+    params,
+    dbConfig: config.dbConfig,
+    cacheConfig: config.CACHE_CONFIG,
+    errorMsgs: errorMsgs.get,
+  });
+
+export { get, post, protectedRoutes };

@@ -22,6 +22,12 @@ const ROUTES = [
   },
 ];
 
+const dbConfig = Object.freeze({
+  dbName: process.env.MONGODB_DB_NAME,
+  dbUri: process.env.MONGODB_DB_URL,
+  dbColl: process.env.MONGODB_DB_COLLECTION,
+});
+
 const CACHE_CONFIG = Object.freeze({
   host: process.env.REDIS_DB_HOST,
   port: process.env.REDIS_DB_PORT,
@@ -35,6 +41,10 @@ const ERROR_MSG = {
     EXISTING_USER: "user already exists",
     INVALID_EMAIL: "invalid email",
   },
+
+  get: {
+    NON_EXISTING_USER: "User does not exist",
+  },
 };
 
 export default Object.freeze({
@@ -46,4 +56,5 @@ export default Object.freeze({
   NODE_HOSTNAME,
   NODE_PORT,
   ROUTES,
+  dbConfig,
 });

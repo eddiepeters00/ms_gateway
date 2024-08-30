@@ -1,5 +1,5 @@
 import { logger } from "../../libs/logger";
-import { post, protectedRoutes } from "../use-case";
+import { post, protectedRoutes, get } from "../use-case";
 const baseUrl = "/api/v1/services";
 
 const postEP = async (req, res) => {
@@ -10,6 +10,19 @@ const postEP = async (req, res) => {
     res.json({ err: 0, data: results });
   } catch (err) {
     logger.error(`[EP][POST] ${req.method}: ${err.message}`);
+    res.status(403);
+    res.json({ err: 1, data: err.message });
+  }
+};
+
+const getEP = async (req, res) => {
+  try {
+    const path = req.path;
+    const method = req.method;
+    let results = await get({ params: req.body, path });
+    results.json({ err: 0, data: results });
+  } catch (err) {
+    logger.error(`[EP][GET] ${req.method}: ${err.message}`);
     res.status(403);
     res.json({ err: 1, data: err.message });
   }
